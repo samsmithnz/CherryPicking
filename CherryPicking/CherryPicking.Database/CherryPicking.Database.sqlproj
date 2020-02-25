@@ -64,5 +64,6 @@
     <Build Include="StoredProcedures\GetFruit.sql" />
     <Build Include="StoredProcedures\InsertFruit.sql" />
     <Build Include="StoredProcedures\DeleteFruit.sql" />
+    <Build Include="StoredProcedures\UpdateFruit.sql" />
   </ItemGroup>
 </Project>
