@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "CherryPicking.Database", "CherryPicking.Database\CherryPicking.Database.sqlproj", "{D57CDAE4-88AA-4318-A55B-629DA5710AF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CherryPicking.Models", "CherryPicking.Models\CherryPicking.Models.csproj", "{40B80AF2-E8FC-40F4-9575-1F25DFDE2A04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CherryPicking.Tests", "CherryPicking.Tests\CherryPicking.Tests.csproj", "{A07FE3B7-00BD-4790-9BDE-F75E0B76D6F5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D57CDAE4-88AA-4318-A55B-629DA5710AF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D57CDAE4-88AA-4318-A55B-629DA5710AF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D57CDAE4-88AA-4318-A55B-629DA5710AF5}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D57CDAE4-88AA-4318-A55B-629DA5710AF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D57CDAE4-88AA-4318-A55B-629DA5710AF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D57CDAE4-88AA-4318-A55B-629DA5710AF5}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{40B80AF2-E8FC-40F4-9575-1F25DFDE2A04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40B80AF2-E8FC-40F4-9575-1F25DFDE2A04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40B80AF2-E8FC-40F4-9575-1F25DFDE2A04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40B80AF2-E8FC-40F4-9575-1F25DFDE2A04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A07FE3B7-00BD-4790-9BDE-F75E0B76D6F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A07FE3B7-00BD-4790-9BDE-F75E0B76D6F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A07FE3B7-00BD-4790-9BDE-F75E0B76D6F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A07FE3B7-00BD-4790-9BDE-F75E0B76D6F5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F651E351-35D8-4794-BD62-79BEF7EFD25E}
+	EndGlobalSection
+EndGlobal
