@@ -12,7 +12,7 @@ jobs:
     runs-on: windows-latest
 
     steps:
-    - run: Write-Host "Test1 enviroment var ${{ GITHUB_REF }}"
+    - run: Write-Host "Test1 enviroment var ${ GITHUB_REF }"
       shell: powershell
-    - run: Write-Host "Test2 condition var ${{ github.ref }}"
+    - run: Write-Host "Test2 condition var ${ github.ref }"
       shell: powershell
