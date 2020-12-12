@@ -28,4 +28,5 @@ jobs:
     - run: Write-Host "Test3b condition var ${{ runner.os }}"
       if: runner.os == 'Windows'
       shell: powershell
+    - run: git clone https://github.com/samsmithnz/CherryPicking.git
 
