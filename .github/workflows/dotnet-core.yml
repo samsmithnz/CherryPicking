@@ -12,13 +12,13 @@ jobs:
     runs-on: windows-latest
 
     steps:
-    - run: Write-Host "Test1 enviroment var ${GITHUB_REPOSITORY}"
+    - run: Write-Host "Test1 enviroment var ${{ GITHUB_REPOSITORY }}"
       shell: powershell
-    - run: Write-Host "Test1b enviroment var ${GitHub_Repository}"
+    - run: Write-Host "Test1b enviroment var ${{ GitHub_Repository }}"
       shell: powershell
-    - run: Write-Host "Test2 condition var ${github.repostory}"
+    - run: Write-Host "Test2 condition var ${{ github.repostory }}"
       shell: powershell
-    - run: Write-Host "Test1b enviroment var ${RUNNER_OS}"
+    - run: Write-Host "Test1b enviroment var ${{ RUNNER_OS }}"
       shell: powershell
-    - run: Write-Host "Test2 condition var ${runner.os}"
+    - run: Write-Host "Test2 condition var ${{ runner.os }}"
       shell: powershell
