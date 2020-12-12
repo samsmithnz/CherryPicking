@@ -16,7 +16,7 @@ jobs:
       shell: powershell
     - run: Write-Host "Test1b enviroment var ${{GitHub.Repository}}"
       shell: powershell
-    - run: Write-Host "Test2 condition var ${{github.repostory}}"
+    - run: Write-Host "Test2 condition var ${{github.repository}}"
       shell: powershell
     - run: Write-Host "Test1b enviroment var ${{RUNNER.OS}}"
       shell: powershell
