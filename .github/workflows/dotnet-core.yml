@@ -1,0 +1,19 @@
+name: .NET Core
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+
+    runs-on: windows-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - run: Write-Host "Test1: ${{ github.ref }}"
+      shell: powershell
+    - run: Write-Host "Test2: ${{ GITHUB_REF }}"
+      shell: powershell
