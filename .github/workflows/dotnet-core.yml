@@ -23,7 +23,7 @@ jobs:
     - run: Write-Host "Test2b condition var ${{ runner.os }}"
       shell: powershell
     - run: Write-Host "Test3a enviroment var $RUNNER_OS"
-      if: $RUNNER_OS == 'Windows'
+      #if: $RUNNER_OS == 'Windows'
       shell: powershell
     - run: Write-Host "Test3b condition var ${{ runner.os }}"
       if: runner.os == 'Windows'
