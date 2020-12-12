@@ -12,9 +12,9 @@ jobs:
     runs-on: windows-latest
 
     steps:
-    - run: Write-Host "Test1 enviroment var ${{GITHUB_REPOSITORY}}"
+    - run: Write-Host "Test1 enviroment var ${{GITHUB.REPOSITORY}}"
       shell: powershell
-    - run: Write-Host "Test1b enviroment var ${{GitHub_Repository}}"
+    - run: Write-Host "Test1b enviroment var ${{GitHub.Repository}}"
       shell: powershell
     - run: Write-Host "Test2 condition var ${{github.repostory}}"
       shell: powershell
