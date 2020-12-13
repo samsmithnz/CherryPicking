@@ -12,6 +12,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - run: dir "${{ github.workspace }}" 
+    - run: "PowerShell/MyPS.ps1"
 
   testing:
     runs-on: windows-latest
